@@ -126,3 +126,8 @@ html {
     transition: 0.25s ease;
     transform: translateY(-5px);
 }
+
+
+.main_page_index{
+    background:#fff;
+}
