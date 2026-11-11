@@ -1,0 +1,33 @@
+.items{
+
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.section-items{
+
+border: 1px solid white;
+display: inline-block;
+text-align: center;
+border-radius: 10px;
+background-color:  #033314;
+margin: 30px 20px 0 10px;
+}
+
+.section-items:hover{
+    transform: translateY(-10px);
+    transition: .5s ease;
+}
+.section-items img{
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.price{
+    font-style: italic;
+    margin-bottom: 4px;
+}
